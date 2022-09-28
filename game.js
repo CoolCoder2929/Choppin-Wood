@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	// Resource generation rates
-	var sLumberjackRate = 1;
+	var sLumberjackRate = 1000000000000000;
 	var sLoggingTruckRate = 8;
 	var sLoggingHeliRate = 50;
 	var sLoggingCampRate = 250;
@@ -11,7 +11,7 @@ $(document).ready(function(){
 	var sOldGrowthRate = 1500000;
 	var sStolenLandRate = 10000000;
 
-	var sOilWorkerRate = 1;
+	var sOilWorkerRate = 1000000000000000;
 	var sDrillingRigRate = 8;
 	var sTankerTruckRate = 50;
 	var sOilPlatformRate = 250;
@@ -96,13 +96,13 @@ $(document).ready(function(){
 	var sPoliticianCostO = 8000000000;
 
 	// OPTIONS
-	var sMoney = 10;
+	var sMoney = 1000000000000000;
 	var sLumberPrice = 1;
 	var sOilPrice = 1;
 	var sSpeciesExtinct = 2;
 
 	// The current price is multiplied by this to get next price.
-	var priceIncrease = 1.35; 
+	var priceIncrease = 0.25; 
 
 	// When the cash price of an item is less than this times your current 
 	// cash or resource it shows the item.
