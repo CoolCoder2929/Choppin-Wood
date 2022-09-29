@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	// Resource generation rates
-	var sLumberjackRate = 1000000000000000;
+	var sLumberjackRate = 1000000000000;
 	var sLoggingTruckRate = 8;
 	var sLoggingHeliRate = 50;
 	var sLoggingCampRate = 250;
@@ -11,7 +11,7 @@ $(document).ready(function(){
 	var sOldGrowthRate = 1500000;
 	var sStolenLandRate = 10000000;
 
-	var sOilWorkerRate = 1000000000000000;
+	var sOilWorkerRate = 1000000000000;
 	var sDrillingRigRate = 8;
 	var sTankerTruckRate = 50;
 	var sOilPlatformRate = 250;
@@ -96,7 +96,7 @@ $(document).ready(function(){
 	var sPoliticianCostO = 8000000000;
 
 	// OPTIONS
-	var sMoney = 1000000000000000;
+	var sMoney = 1000000000000;
 	var sLumberPrice = 1;
 	var sOilPrice = 1;
 	var sSpeciesExtinct = 2;
